@@ -9,7 +9,19 @@
         table{
             width: 70%;
             border-collapse: collapse;
+            
         }
+       
+		.ocultar  {
+			display: none;
+		}
+		.ocultar:target {
+            display: list-item;
+		}
+        #tabla1{
+            width: 15%;
+        }
+
     </style>
 </head>
 <body>
@@ -26,20 +38,56 @@
             <tr>
                 <td>
                     <ul> 
-                        <li><a href="articulos.html">articulos.htm</a></li>
-                        <li><a href="masInfo.htm"></a>MasInfo.htm</li>
+                        <li><a href="#tabla1">articulos</a></li>
+                        <li><a href="#contacto">MasInfo</a></li>
                     </ul>
+                </td>
+                <td>
+                    <table id="tabla1" class="ocultar" border="1">
+                        <tr>
+                            <th colspan="2">Articulos</th>
+                        </tr>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>cantidad</th>
+                        </tr>
+                        <tr>
+                            <td>articulo2</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>articulo3</td>
+                            <td>53</td>
+                        </tr>
+                        <tr>
+                            <td>articulo4</td>
+                            <td>66</td>
+                        </tr>
+                        <tr>
+                            <td>articulo5</td>
+                            <td>28</td>
+                        </tr>
+                        <tr>
+                            <td>articulo6</td>
+                            <td>45</td>
+                        </tr>
+
+                    </table>
+                    <div id="contacto" class="ocultar">
+                        <h5>Para mas informacion comunicarse a: </h5>
+                        <br>
+                        <a href="consultas@empresa.com">consultas@empresa.com</a>
+                    </div>
                 </td>
             </tr>
             <tr>
                 <td colspan="2">
                     <ul> 
-                        <li><a href="articulos.html">articulos.htm</a></li>
-                        <li><a href="masInfo.htm"></a>MasInfo.htm</li>
+                        <li><a href="#tabla1">articulos</a></li>
+                        <li><a href="#contacto">MasInfo</a></li>
                     </ul>
                 </td>
             </tr>
-
         </tbody>
     </table>
     
