@@ -1,0 +1,29 @@
+/* Practica 1*/
+.contenedor{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Practica 2-1*/
+
+.grilla{
+    background-color: aqua;
+    width: 100%;
+    height: 70px;
+    margin: 5px 0;
+}
+
+/* Practica 2-2*/
+.grillaPractica3{
+    background-color: aqua;
+    margin-top: 50px;
+    width: 75%;
+    height: 800px;
+}
+
+.myRowColumn{
+    background-color: purple;
+}
+
+
